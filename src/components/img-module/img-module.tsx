@@ -1,14 +1,14 @@
-import * as React from 'react';
+import {h, Component} from 'preact';
 
-export class ImgModule extends React.Component <{
+export interface ImgModuleProps {
     hello?: string
-}>{
+}
 
-    public hello: string= "kittens.jpg";
+export class ImgModule extends Component<ImgModuleProps, any> {
 
-    render() {
+    render(props: ImgModuleProps) {
         return (
-            <img src={this.props.hello} />
+            <img src={props.hello}/>
         )
     }
 }

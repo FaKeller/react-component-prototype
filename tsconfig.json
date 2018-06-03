@@ -12,6 +12,7 @@
     "outDir": "dist/",
     "baseUrl": ".",
     "jsx": "react",
+    "jsxFactory": "h",
     "allowSyntheticDefaultImports": true,
     "paths": {
       "*": [

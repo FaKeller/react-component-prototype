@@ -1,7 +1,7 @@
-import * as React from 'react';
 import {ImgModule} from '../img-module/img-module';
+import {h, Component} from 'preact';
 
-export class TextModule extends React.Component <{}> {
+export class TextModule extends Component {
 
     private test: number = 5;
 
